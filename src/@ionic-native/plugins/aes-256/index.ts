@@ -59,8 +59,8 @@ export class AES256 extends IonicNativePlugin {
 
   /**
    * This function used to perform the aes256 encryption
-   * @param {string} secureKey A 32 bytes string, which will used as input key for AES256 encryption.
-   * @param {string} secureIV A 16 bytes string, which will used as initial vector for AES256 encryption.
+   * @param {string} secureKey A 32 byte string, which will used as input key for AES256 encryption.
+   * @param {string} secureIV A 16 byte string, which will used as initial vector for AES256 encryption.
    * @param {string} data A string which will be encrypted
    * @return {Promise<string>} Returns a promise that resolves when encryption happens. The success response will returns encrypted data.
    */
@@ -71,8 +71,8 @@ export class AES256 extends IonicNativePlugin {
 
   /**
    * This function used to perform the aes256 decryption
-   * @param {string} secureKey A 32 bytes string, which will used as input key for AES256 decryption.
-   * @param {string} secureIV A 16 bytes string, which will used as initial vector for AES256 decryption.
+   * @param {string} secureKey A 32 byte string, which will used as input key for AES256 decryption.
+   * @param {string} secureIV A 16 byte string, which will used as initial vector for AES256 decryption.
    * @param {string} data An AES256 encrypted data which will be decrypted.
    * @return {Promise<string>} Returns a promise that resolves when decryption happens. The success response will returns decrypted data.
    */
